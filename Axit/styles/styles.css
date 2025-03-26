@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    max-width: 100%;
+    font-family: "Raleway", sans-serif;
+}
+
+.line{
+    width: 100px;
+    background-color: white;
+    height: 3px;
+}
+
+
+/*--------HEADER----------*/
+
+.navegador{
+    display: flex;
+    height: 75px;
+    gap: 30%;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 5%;
+}
+
+.barraNav{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    list-style: none;
+    gap: 12%;  
+}
+
+/*--------TiTUlO Y FORMULARIO----------*/
+
+.backForm{
+    background: url(/assets/headerBg.png);
+    background-position: 0% 38%;
+    display: flex;
+    padding: 13%;
+    padding-bottom: 13%;
+}
+
+.textForm{
+    display: flex;
+}
+
+.axitText{
+    color: white;
+    width: 47%;
+}
+
+.axitText h1{
+    font-size: 44px;
+    margin-bottom: 25px;
+    font-weight: 200;
+}
+
+.axitText .line{
+    margin-bottom: 25px;
+}
+
+.axitText p{
+    font-size: 24px;
+}
+
+.btt1 {
+    background: none;
+    border: 2px solid white;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.axitForm{
+    display: grid;
+    width: 30%;
+    margin-left: 240px;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+.tituloForm{
+    display: flex;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    padding: 13px 40px;
+    border-radius: 2px;
+}
+
+.free{
+    color: #ff8b38;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+.inputs{
+    display: grid;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+
