@@ -59,7 +59,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('../assets/headerBg.png');
+    background: url(/assets/headerBg.png);
     background-size: cover;
     background-position: 0% 38%;
     filter: brightness(65%); 
