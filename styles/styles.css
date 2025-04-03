@@ -59,7 +59,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('..//assets/headerBg.png');
+    background: url('../assets/headerBg.png');
     background-size: cover;
     background-position: 0% 38%;
     filter: brightness(65%); 
@@ -529,7 +529,7 @@
 }
 
 .opinion p{
-    background: url(..//assets/textBubble.png) no-repeat;
+    background: url(../assets/textBubble.png) no-repeat;
     background-size: contain;
     padding: 20px;
     border-radius: 10px;
@@ -599,7 +599,7 @@
     right: 0;
     bottom: 0;
     color: #ffffff;
-    background: url(..//assets/bg2.png) no-repeat ;
+    background: url(../assets/bg2.png) no-repeat ;
     background-size: cover;
     filter: brightness(55%);
     z-index: -1;
